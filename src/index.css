@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "aos/dist/aos.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  /* HAPUS background-image, background-size, background-position jika masih ada */
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

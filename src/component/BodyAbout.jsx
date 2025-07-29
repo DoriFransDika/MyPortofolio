@@ -15,7 +15,7 @@ const BodyAbout = () => {
         <main className="container mx-auto px-10 py-1 text-off-white font-inter">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
 
-            {/* Bagian Kiri: Konten Teks About Me */}
+            {/* Konten Teks About Me */}
             <div className="w-full lg:w-1/2 text-center lg:text-left ">
                 <h3
                     data-aos="fade-up"

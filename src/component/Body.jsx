@@ -40,7 +40,7 @@ const Body = () => {
         </div>
 
           {/* Bagian Gambar Profil */}
-        <div style={{ position: "relative", width: "300px", height: "300px" }}>
+        <div style={{ position: "relative", width: "400px", height: "500px" }}>
           <BorderBeam size={600} duration={10} />
             <img
               src="/image/1.jpg"

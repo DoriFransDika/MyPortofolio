@@ -1,4 +1,3 @@
-/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,14 +6,14 @@
 @import "aos/dist/aos.css";
 
 body {
-  margin: 0; /* Pastikan ini ada */
+  margin: 0;
   padding: 0;
 }
 
-#root { /* Atau #app, tergantung setup Vite Anda */
-  margin: 0; /* Pastikan ini ada jika div root punya margin */
-  padding: 0; /* Pastikan ini ada jika div root punya padding */
-  box-sizing: border-box; /* Praktik yang baik */
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .logo {

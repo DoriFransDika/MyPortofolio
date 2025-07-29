@@ -16,8 +16,8 @@ const Home = () => {
           <Body />
         </div>
       </section>
-      <ProjectSection />
-      <AboutMeSection />
+          <ProjectSection />
+          <AboutMeSection />
 
     </div>
   );

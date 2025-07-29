@@ -1,5 +1,5 @@
-import React from 'react';
 import SosialMedia from './SosialMedia';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   const menuItems = [
@@ -8,6 +8,11 @@ const Footer = () => {
     { name: 'Project', href: '/Project' },
     { name: 'Contact', href: 'Contact' },
   ];
+
+    const getNavLinkClass = ({ isActive }) =>
+    `hover:text-yellow-500 transition-colors duration-200 ${
+      isActive ? 'text-yellow-500 font-semibold' : 'text-gray-50'
+    }`;
 
   return (
     <footer className="bg-navy-dark border-t-4 border-yellow-500 p-5xl"
@@ -21,6 +26,7 @@ const Footer = () => {
           <ul>
             {menuItems.map((item) => (
               <li key={item.name} className="my-2">
+                  <NavLink to={item.href} className={getNavLinkClass}></NavLink>
                 <a className="hover:text-yellow-500 transition-colors duration-200" href={item.href}>
                   {item.name}
                 </a>

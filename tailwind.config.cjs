@@ -1,4 +1,3 @@
-// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Arial', 'sans-serif'], // Contoh, bisa diganti font default Anda
+        sans: ['Arial', 'sans-serif'],
         serif: ['Georgia', 'serif'],
         cursive: ['"Brush Script MT"', 'cursive'],
         pacifico: ['Pacifico', 'cursive'],
@@ -23,14 +22,12 @@ module.exports = {
 
       backgroundImage: {
         'pattern-white-abstract': "url('https://static.vecteezy.com/system/resources/previews/010/820/720/original/white-background-random-minimalist-abstract-illustration-for-logo-card-banner-web-and-printing-vector.jpg')",
-        // Anda bisa tambahkan lebih banyak gambar background di sini jika diperlukan
-        // 'hero-pattern': "url('/image/hero-bg.jpg')",
       },
 
       colors: {
         // Palet Primer
         'dark-teal': '#1A3A4A',
-        'navy-dark': '#0A192F', // Untuk background paling gelap
+        'navy-dark': '#0A192F', 
 
         // Palet Sekunder/Aksen
         'soft-gold': '#D4AF37',
@@ -38,9 +35,9 @@ module.exports = {
         'dusty-rose': '#C89999',
 
         // Palet Netral
-        'off-white': '#F8F8F8', // Atau gunakan gray-50/gray-100 dari Tailwind
+        'off-white': '#F8F8F8',
         'charcoal': '#333333',
-        'light-gray-bg': '#F0F0F0', // Untuk background section putih Anda
+        'light-gray-bg': '#F0F0F0',
       },
 
       animation: {

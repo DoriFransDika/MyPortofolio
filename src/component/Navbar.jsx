@@ -39,7 +39,7 @@ import { NavLink } from 'react-router-dom';
     };
 
   return (
-    <nav className="bg-navy-dark p-4 shadow-md w-full">
+    <nav className="bg-navy-dark p-4 shadow-md w-full sticky top-0 z-50">
       {/* Bagian utama navigasi */}
       <div className="flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex-shrink-0 flex items-center space-x-3">
